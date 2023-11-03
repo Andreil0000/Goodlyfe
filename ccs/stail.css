@@ -242,7 +242,9 @@ header {
    height: 690px;
    margin-top: -114px;
 }
-
+.cross{
+   background: rgba(45, 40, 36, 0.20);
+}
 .offer1 {
    display: block;
    margin: 0 auto;
@@ -767,6 +769,86 @@ li.social-icon-footer1 {
 .footer_item4 {
    margin-top: -36px;
 }
+   /* mobail */
+/* menu byrder */
+.burger {
+   width: 40px;
+   height: 20px;
+   background-image: url(../img/byrger.svg);
+   background-repeat: no-repeat;
+   background-size: contain;
+   background-color: transparent;
+   border: none;
+   cursor: pointer;
+   margin-top:10px;
+ }
+ 
+ #modal {
+   max-width: 320px;
+   height: 425px;
+   background: #E43071;
+   position: absolute;
+   top: -450px;
+   left:0px;
+   right: 0px;
+   margin: 20px auto 0;
+   transition: 0.5s;
+   padding: 29px 10px;
+   box-sizing: border-box;
+   flex-direction: column;
+   z-index: 99;
+   padding-top: 10px;
+ }
+ .burger-close {
+   width: 20px;
+   height: 19px;
+   background-color: transparent;
+   background-image: url(../img/crect.svg);
+   background-repeat: no-repeat;
+   background-size: contain;
+   border: none;
+   cursor: pointer;
+   position: absolute;
+   top: 18px;
+   right: 20px;
+ }
+ .modal-header-nav {
+   list-style-type: none;
+   padding-left: 0px;
+   margin-top: 10px;
+  text-align: center;
+ }
+ .modal-header-nav a {
+   font-weight: 700;
+   font-size: 16px;
+   line-height: 150%;
+   color: #ffffff;
+   gap: 30px;
+   text-decoration: none;
+   line-height: 3;
+   line-break: auto;
+ 
+ }
+ .modal_header-dg {
+   position: absolute; 
+   max-width: 100%;
+   padding: 16px 61px;
+   background: #FFB8D2;
+   border-radius: 30px;
+   display: block;
+   margin: 0 auto;
+   margin-left: 60px;
+ }
+ .modal_header-dg a{
+   text-align: center;
+   font-family: Poppins;
+   font-size: 16px;
+   font-style: normal;
+   font-weight: 400;
+   line-height: 109.5%;
+   text-decoration: none;
+   color: #292929;
+ }
 
 /* RECNONCER */
   /* desctop */
@@ -865,6 +947,9 @@ footer {
   }
   .header-item {
    margin-left: 570px;
+}
+.header-dg {
+   margin-left: 10px;
 }
 }
 /* ipad */
