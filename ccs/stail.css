@@ -248,12 +248,12 @@ header {
 .offer1 {
    display: block;
    margin: 0 auto;
-   width: 70vw;
+   max-width:100%;
    padding-top: 157px;
 }
 
 .title1 {
-   width: 70vw;
+   max-width:100%;
    font-size: 60px;
    text-align: center;
    color: #FFFFFF;
@@ -1038,8 +1038,8 @@ footer {
    font-size: 14px;
 }
 .text_content {
-   max-width: 90%;
-   margin-bottom: 20px;
+   max-width: 100%;
+   margin-bottom: 0px;
 }
 .active_box {
    gap: 66px;
@@ -1137,6 +1137,9 @@ h3 {
    .container{
      max-width: 590px;
    }
+   .text_content {
+      margin-bottom: 20px;
+  }
    .astana {
       margin-top: -68px;
   }
@@ -1167,10 +1170,7 @@ h3 {
    right: -60px;
    bottom: 300px;
 }
-.title_content {
-   font-size: 27px;
-   max-width: 94%;
-}
+
 .content_box1 {
    gap: 0px;
 }
@@ -1189,16 +1189,13 @@ h3 {
     margin-top: -40px;
 }
 .offer1 {
-   width: 70vw;
    padding-top: 50px;
 }
 .title1 {
-   width: 70vw;
    font-size: 30px;
    margin-bottom: 20px;
 }
 .text2 {
-   width: 70vw;
    font-size: 14px;
    margin-bottom: 38px;
 }
@@ -1560,7 +1557,6 @@ display: none;
    height: 439px;
 }
 .offer1 {
-   width: 72vw;
    padding-top: 63px;
 }
 .cent1 {
