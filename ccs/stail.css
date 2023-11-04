@@ -482,7 +482,8 @@ h3 {
 
 .active {
    padding-top: 86px;
-   
+    padding-left: 10px;
+    padding-right: 10px;
 }
 
 .title_active {
@@ -632,6 +633,8 @@ left: 28%;
 footer {
    padding-top: 138px;
    background: var(--default-black, #0B0D17);
+   padding-left: 10px;
+   padding-right: 10px;
 }
 
 .footer_logo {
@@ -978,7 +981,7 @@ footer {
    padding-bottom: 138px;
 }
 }
-@media(max-width:1037px){
+@media(max-width:1057px){
    .icon_flex {
       margin-left: 0px;
   }
@@ -1132,6 +1135,9 @@ h3 {
 .footer_item4{
    margin-top:-180px;
 }
+.maska1 {
+   margin-left: 0px;
+}
 }
 @media(max-width:720px){
    .container{
@@ -1284,6 +1290,7 @@ h3 {
 .feafur_box2 {
    max-width: 40.5vw;
 }
+
 }
 @media(max-width:590px){
    .container{
