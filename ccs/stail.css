@@ -72,7 +72,15 @@ header {
    text-decoration: none;
    list-style: none;
 }
-
+.header-nav a::after {
+   content: "";
+   height: 1px;
+   width: 100%;
+   background: #2B3541;
+   border-radius: 1px;
+   display: block;
+   background: transparent;
+}
 .header-icon {
    display: block;
    background-image: url(../img/Icon.svg);
@@ -115,9 +123,10 @@ header {
 
 /* .wrap */
 .wrap {
-   background: url(../img/Female\ working\ out.jpg) no-repeat center top / cover;
+   background: url(../img/sport1.jpg) no-repeat center top / cover;
    height: 690px;
-   margin-top: 0px;
+   position: relative;
+   z-index: 1;
 }
 
 .offer {
@@ -153,9 +162,10 @@ header {
    transition: all 0.5s ease;
    margin-bottom: 176px;
 }
-
-.button-dg:hover {}
-
+.button:hover{
+   background-color: #ffffff;
+   color:#E43071;
+}
 .gryn {
    display: flex;
    align-items: center;
@@ -169,7 +179,9 @@ header {
    height: 12px;
    border-radius: 30px;
 }
-
+.cryg:hover{
+   background-color: #E43071;
+}
 /* .content */
 .section {
    padding-top: 137px;
@@ -222,7 +234,10 @@ header {
    transition: all 0.5s ease;
    margin-bottom: 100px;
 }
-
+.bg:hover {
+   background-color:#E43071;
+   color:#ffffff;
+}
 .img_content {
    transform: translate(6%, 12px);
 }
@@ -290,7 +305,10 @@ header {
    transition: all 0.5s ease;
    margin-bottom: 209px;
 }
-
+.button1:hover{
+   background-color: #ffffff;
+   color: #E43071;
+}
 .content_box1 {
    display: flex;
    gap: 294px;
@@ -339,7 +357,10 @@ header {
    transition: all 0.5s ease;
    margin-bottom: 100px;
 }
-
+.bg1:hover{
+ background-color: #BE285E;
+ color: #EDEDED;
+}
 .img_content1 {
    transform: translate(-28%, 12px);
 }
@@ -515,7 +536,9 @@ h3 {
    max-width: 100%;
    text-decoration: none;
 }
-
+.bg2 :hover{
+   color: #FFF;
+ }
 .active_flex {
    display: flex;
    gap: 12px;
@@ -574,6 +597,17 @@ h4 {
     justify-content: center;
    position: relative;
 }
+.artical_icon1:hover{
+ background-color: azure;
+}
+.artical_icon2:hover{
+ background-color: azure;
+}
+.artical_icon3:hover{
+ background-color: azure;
+}
+
+
 li.social-icon1 {
    text-decoration: none;
    list-style: none;
@@ -646,7 +680,9 @@ footer {
    width: 200px;
    text-decoration: none;
 }
-
+.footer_logo:hover{
+   color: #ee6af7
+}
 .footer_box {
    display: grid;
    gap: 176px;
@@ -679,6 +715,10 @@ li.social-icon-footer {
    background-repeat: no-repeat;
    background-size: contain;
    transition: all 0.5s ease;
+}
+li.social-icon-footer:hover{
+   width: 38px;
+   height: 38px;
 }
 
 .instagram1 {
@@ -715,7 +755,9 @@ h5 {
    text-decoration: none;
    list-style: none;
 }
-
+.footer_nav :hover {
+   color:#ee6af7;
+}
 .footer_nav {
    list-style-type: none;
    display: block;
@@ -732,7 +774,9 @@ h5 {
    line-height: 24px;
    max-width: 250px;
 }
-
+.footer-tail:hover{
+   color: #ee6af7
+}
 .footer-tail {
    display: block;
    color: #FFF;
@@ -758,7 +802,11 @@ li.social-icon-footer1 {
    background-size: contain;
    transition: all 0.5s ease;
 }
-
+li.social-icon-footer1:hover{
+ color: #F4E3E9;
+ width: 38px;
+ height: 38px;
+}
 .mail {
    background-image: url(../img/mail.svg);
 }
@@ -796,7 +844,9 @@ margin-top: 20px;
    max-width: 400px;
    margin-left: -205px;
 }
-
+.footer-taill:hover{
+   color: #ee6af7
+}
 .footer_item1 {
    margin-top: -36px;
 }
@@ -1008,6 +1058,9 @@ footer {
 .container{
   max-width: 720px;
   padding: 0 10px;
+}
+.button1 {
+   margin-bottom: 100px;
 }
 .header-item {
    margin-left: 300px;
